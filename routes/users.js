@@ -7,7 +7,14 @@ usersRouter.get('/users', (req, res) => {
 
 usersRouter.get('/users/:id', (req, res) => {
   const { id } = req.params;
-  res.send(id);
+  const user = usersItems.filter((item) => item._id === id);
+
+  if(user.length) {
+    res.send(user);
+  } else {
+    res.send({ "message": "Нет пользователя с таким id" })
+  }
+
 });
 
 module.exports = usersRouter;
