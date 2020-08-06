@@ -1,0 +1,19 @@
+button.user-info__edit {
+    border: 1px solid #FFFFFF;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+button.user-info__edit:hover {
+    background-color: white;
+    color: black;
+}
