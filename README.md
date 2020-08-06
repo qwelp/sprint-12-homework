@@ -6,8 +6,6 @@
 
 ----------
 
-Ссылка на  GitHub Pages - [перейти](https://qwelp.github.io/sprint-homework-12/)
-
 ### Установка
 git clone https://github.com/qwelp/sprint-homework-12.git
 
