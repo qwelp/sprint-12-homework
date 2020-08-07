@@ -1,8 +1,8 @@
 {
   "name": "sprint-12-homework",
   "homepage": "https://qwelp.github.io/sprint-homework-12/",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Проектная работа 12",
   "main": "app.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -15,12 +15,12 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.4.1",
-    "eslint": "^7.6.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",

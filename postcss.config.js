@@ -1,10 +1,12 @@
 module.exports = {
-    plugins: [
-        require('autoprefixer')({
-            browsers:'last 10 versions'
-        }),
-        require('cssnano')({ // подключили cssnano
-            preset: 'default', // выбрали настройки по умолчанию
-        })
-    ]
-}
+  plugins: [
+    // eslint-disable-next-line global-require,import/no-extraneous-dependencies
+    require('autoprefixer')({
+      browsers: 'last 10 versions',
+    }),
+    // eslint-disable-next-line global-require,import/no-extraneous-dependencies
+    require('cssnano')({ // подключили cssnano
+      preset: 'default', // выбрали настройки по умолчанию
+    }),
+  ],
+};

@@ -13,5 +13,5 @@ node_modules
 .DS_Store
 .idea
 .vscode
-public
+src
 Pull_requests_link.txt
