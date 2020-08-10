@@ -14,11 +14,11 @@ fs.access(usersFile, (error) => {
     // eslint-disable-next-line no-unused-vars,global-require,import/no-dynamic-require
     const usersItems = require(usersFile);
     // eslint-disable-next-line global-require
-    usersRouter.get('/users', (req, res) => {
+    usersRouter.get('/', (req, res) => {
       res.send(usersItems);
     });
 
-    usersRouter.get('/users/:id', (req, res) => {
+    usersRouter.get('/:id', (req, res) => {
       const { id } = req.params;
       // eslint-disable-next-line no-underscore-dangle
       const user = usersItems.find((item) => item._id === id);

@@ -13,7 +13,7 @@ fs.access(cardsFile, (error) => {
   } else {
     // eslint-disable-next-line global-require,import/no-dynamic-require
     const cardsItems = require(cardsFile);
-    cardsRouter.get('/cards', (req, res) => {
+    cardsRouter.get('/', (req, res) => {
       res.send(cardsItems);
     });
   }
